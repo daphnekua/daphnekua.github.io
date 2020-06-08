@@ -1,0 +1,45 @@
+body {
+  background: rbg(240, 240, 240);
+  color: rgb (20, 20, 20);
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+h1 {
+  font-size: 40px;
+  color: red;
+  font-family: 'PT Serif', serif;
+}
+h2 {
+  font-size: 17px;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+a:hover {
+  text-decoration: none;
+  color: green;
+}
+#profile {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.symbols {
+  height: 150px;
+  weight: 50px;
+  border-radius: 50%;
+}
+
+/*Custom Design*/
+#content {
+  text-align: center;
+  padding: 50px;
+}
+#footer a {
+  font-size: 20px;
+  color: grey;
+}
+#footer:hover {
+  color: white;
+}
