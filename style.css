@@ -5,12 +5,12 @@ body {
   margin: 0;
 }
 h1 {
-  font-size: 40px;
   color: red;
   font-family: 'PT Serif', serif;
 }
 h2 {
-  font-size: 17px;
+}
+h3 {
 }
 a {
   text-decoration: none;
@@ -20,11 +20,6 @@ a:hover {
   text-decoration: none;
   color: green;
 }
-#profile {
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-}
 .symbols {
   height: 150px;
   weight: 50px;
@@ -32,14 +27,40 @@ a:hover {
 }
 
 /*Custom Design*/
+#profile-section {
+  padding-top: 82px;
+  padding-right: 10px;
+  float: right;
+  text-align: right;
+  display: block;
+}
+#profile-text {
+  font-weight: bold;
+}
+#profile-image {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+#top-section {
+  padding-top: 82px;
+}
 #content {
   text-align: center;
-  padding: 50px;
+  padding: 92px;
 }
 #footer a {
   font-size: 20px;
   color: grey;
 }
-#footer:hover {
+#footer {
+  background: #343434;
+  padding: 50px;
+}
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+#footer a:hover {
   color: white;
 }
