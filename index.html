@@ -8,13 +8,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <!-- Font Awesome -->
+    <script src="//twemoji.maxcdn.com/twemoji.min.js"></script>
     <script src="https://kit.fontawesome.com/c91ff2aa93.js" crossorigin="anonymous"></script>
-
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
     <title>Daphne Kua</title>
-    <!--  <script type="application/ld+json">
+    <script type="application/ld+json">
     {
      "@context": "http://schema.org",
      "@type": "WebSite",
@@ -31,75 +31,59 @@
       "name": "Daphne Kua"
       }
     }
-    </script> -->
+    </script>
 
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light p-3">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://github.com/daphnekua"><i class="fab fa-github-square fa-lg"></i></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.linkedin.com/in/daphnekua/"><i class="fab fa-linkedin fa-lg"></i></a>
-        </li>
-        </ul>
+    <div class="current-position">
+      <div class="current-description">
+        <h3>Daphne Kua</h3>
+        <p>Implementation Manager, Triptease</p>
       </div>
-    </nav>
-
-    <div id="profile-section">
-      <p><strong>Daphne K</strong></br>
-      <i>PIM</i></p>
-      <img id="profile-image" src="Images/Profile-Picture.png">
+        <img src="./Images/Profile-Picture.png" class="profile-picture">
     </div>
 
-    <div id="top-section">
-      <h1>Hello,</h1>
-      <button type="button" class="btn btn-warning"><a href="mailto:daphnekua@gmail.com">Contact Me</a></button></br>
-      <div id="content">
-        <div>
-          <h2>About Me</h2>
-            <p>I enjoy yoga and travel.</p>
-            <p>I am a SaaS PIM, </br>
-              and undertaking a Web Development coding bootcamp with a leading coding school.</p>
-            </div>
-
-        <div>
-          <h2>Skills</h2>
-            <h3>What I specialise in</h3>
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-12 col-lg-4">
-                  <h4>Project Management</h4>
-                    <p>Using agile methodology</p>
-                </div>
-                <div class="col-sm-12 col-lg-4">
-                  <h4>Front-End</h4>
-                    <p>HTML, CSS, Javascript</p>
-                </div>
-                <div class="col-sm-12 col-lg-4">
-                  <h4>Back-End</h4>
-                    <p>Express.js, Node.js, SQL, Ruby on Rails</p>
-                    <p><i>In progress</i></p>
-                </div>
-              </div>
-            </div>
-        </div>
+    <div class="navbar">
+      <div class="navbar-item active"><a href="">About</a>
       </div>
+      <div class="navbar-item"><a href="">Travel</a>
+      </div>
+      <div class="navbar-item"><a href="">Portfolio</a>
+      </div>
+      <div class="navbar-item"><a href="mailto:daphnekua@gmail.com">Get in touch <img draggable="false" title=":busts_in_silhouette:" alt="👥" src="https://twemoji.maxcdn.com/2/svg/1f465.svg" class="emoji loading" data-was-processed="true"></a>
+      </div>
+    </div>
+
+    <div class="introduction">
+      <h1>Hello <img draggable="false" title=":wave:" alt="👋" src="https://twemoji.maxcdn.com/2/svg/1f44b.svg" class="emoji loading" data-was-processed="true"></h1>
+      <p>I am a tech professional, with 3 years of experience in the SaaS startup space <img draggable="false" title=":boom:" alt="💥" src="https://twemoji.maxcdn.com/2/svg/1f4a5.svg" class="emoji loading" data-was-processed="true">.</p>
+      <p>As an Implementation Manager <img title=":hammer_and_wrench:" alt="🛠" src="https://twemoji.maxcdn.com/2/svg/1f6e0.svg" class="emoji loading" data-was-processed="true"> at Triptease, I was setting hotels up with our software to drive direct bookings.</p>
+      <p>Now a student at a coding school called Le Wagon, preparing for my next adventure <img draggable="false" class="emoji" alt="👩🏻‍💻" src="https://twemoji.maxcdn.com/v/13.0.0/72x72/1f469-1f3fb-200d-1f4bb.png">.<p>
+
+      <h2>Skills</h2>
+      <div class="description">What I Do</div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-lg-4">
+            <i class="fas fa-tasks fa-3x"></i>
+            <h3>Project Management</h3>
+            <p>Plan and execute projects, stakeholder management</p>
+          </div>
+          <div class="col-sm-12 col-lg-4">
+            <i class="fas fa-code fa-3x"></i>
+            <h3>Front-End</h3>
+            <span id="progress">In progress</span>
+            <p>HTML, CSS, Javascript</p>
+          </div>
+          <div class="col-sm-12 col-lg-4">
+            <i class="fas fa-terminal fa-3x"></i>
+            <h3>Back-End</h3>
+            <span id="progress">In progress</span>
+            <p>Express.js, Node.js, SQL, Ruby on Rails</p>
+          </div>
+        </div>
+        </div>
     </div>
 
     <div id="footer">
@@ -108,6 +92,7 @@
           <li class="list-inline-item"><a href="https://www.linkedin.com/in/daphnekua/"><i class="fab fa-linkedin fa-2x"></i></a></li>
           <li class="list-inline-item"><a href="mailto:daphnekua@gmail.com"><i class="fas fa-envelope-open fa-2x"></i></a></li>
         </ul>
+        <p>Made with <img draggable="false" title=":heart:" alt="❤" src="https://twemoji.maxcdn.com/2/svg/2764.svg" class="emoji loading" data-was-processed="true"> by Daphne Kua</p>
     </div>
 
     <!-- Optional JavaScript -->
