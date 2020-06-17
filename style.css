@@ -1,10 +1,5 @@
-/* --- Google Fonts --- */
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:400");
-
-
 body {
-  font-family: "Montserrat", "sans-serif";
+  font-family: 'Montserrat', sans-serif;
   background: #F2EFE9;
 }
 
@@ -25,20 +20,20 @@ img.emoji {
   margin: 0 50px 0 50px;
 }
 .current-description h3 {
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 14px;
+  font-weight: bolder;
   margin: 0px;
   padding: 10px 10px 0px 10px;
 }
 .current-description p {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: lighter;
   padding: 0px 10px 0px 10px;
 }
 .profile-picture {
   border-radius: 50%;
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   flex: 0 1 auto
 }
 
@@ -102,11 +97,13 @@ img.emoji {
 }
 .container h3 {
   font-size: 20px;
+  margin: 15px 0px;
 }
 .container p {
   font-size: 14px;
   font-weight: lighter;
   padding-top: 10px;
+  padding-bottom: 20px;
 }
 #progress {
   color: white;
