@@ -1,110 +1,49 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
   background: #F2EFE9;
 }
 
-img.emoji {
-   height: 1em;
-   width: 1em;
-   margin: 0 .05em 0 .1em;
-   vertical-align: -0.1em;
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 700px;
 }
 
-/* --- Components --- */
+.card {
+  width: 640px;
+  margin: 32px auto;
+  padding: 32px;
+  background: white;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
 
-/* --- My current position --- */
-.current-position {
-  display: flex;
-  justify-content: flex-end;
-  padding: 10px;
-  margin: 0 100px 0 50px;
-}
-.current-description h3 {
-  font-size: 14px;
-  font-weight: bolder;
-  margin: 0px;
-  padding: 10px 10px 0px 10px;
-}
-.current-description p {
-  font-size: 14px;
-  font-weight: lighter;
-  padding: 0px 10px 0px 10px;
-}
-.profile-picture {
+#profile-picture {
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
-  flex: 0 1 auto
+  margin: 24px auto;
 }
 
-/* --- Navbar --- */
-.navbar {
-  position: absolute top;
-  display: flex;
-  justify-content: flex-start;
-  text-align: center;
-  margin: 0 50px 0 100px;
-}
-.navbar-item {
-  font-family: "Montserrat", "sans-serif";
-  text-transform: uppercase;
-  font-weight: lighter;
-  font-size: 13px;
-  padding: 7px 10px 5px 7px;
-}
-.navbar a {
-  color: #4A494A;
-}
-.navbar-item a:hover {
-  text-decoration: none;
-  border-bottom: 10px solid #4E9089;
-}
-.navbar-item:last-child {
-  color: #93B7BE;
-  font-weight: lighter;
-  border: #999999 solid 0.5px;
-  background-color: white;
-  border-radius: 30px;
-}
-
-/* --- Introduction --- */
-.introduction {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  width: 70%;
-}
-.introduction h1 {
-  margin-bottom: 30px;
-}
-.introduction p {
-  font-size: 15px;
-  font-weight: lighter;
-}
-.introduction h2 {
-  margin-top: 60px;
-  font-weight: lighter;
-}
-.description {
+h1, h2 {
+  font-size: 24px;
   font-family: 'Playfair Display', serif;
-  font-style: italic;
-  margin-bottom: 30px;
+  margin: 8px 0;
 }
-.container {
-  margin-top: 50px;
-  text-align: center;
+
+h3 {
+  font-size: 16px;
+  margin: 8px 0 0 0;
 }
-.container h3 {
-  font-size: 20px;
-  margin: 15px 0px;
+
+p {
+  margin: 8px 0 0 0;
 }
-.container p {
-  font-size: 14px;
-  font-weight: lighter;
-  padding-top: 10px;
-  padding-bottom: 20px;
+
+li {
+  list-style: none;
 }
+
 #progress {
   color: white;
   font-weight: lighter;
@@ -112,24 +51,21 @@ img.emoji {
   padding: 8px;
   background-color: #BFB48F;
   opacity: 0.8;
-  border-radius: 60px;
+  border-radius: 3px;
 }
 
-
-/* --- Footer --- */
-#footer {
-  background: #904E55;
-  color: white;
-  font-size: 12px;
-  padding: 30px 0 30px 100px;
-  bottom: 0px;
-  width: 100%;
-}
-#footer a {
-  color: #E7DECD;
+#socials i {
+  color: #904E55;
   opacity: 1.2;
-  font-size: 15px;
+  font-size: 32px;
 }
-#footer a:hover {
-  color: white;
+#socials i:hover {
+  color: #BFB48F;
+}
+
+img.emoji {
+   height: 1em;
+   width: 1em;
+   margin: 0 .05em 0 .1em;
+   vertical-align: -0.1em;
 }

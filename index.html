@@ -8,8 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
     <script src="//twemoji.maxcdn.com/twemoji.min.js"></script>
     <script src="https://kit.fontawesome.com/c91ff2aa93.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
@@ -33,81 +33,70 @@
       }
     }
     </script>
-
   </head>
   <body>
+    <div class="wrapper">
+      <div class="card">
+        <h1>Hello, I'm Daphne <img draggable="false" title=":wave:" alt="👋" src="https://twemoji.maxcdn.com/2/svg/1f44b.svg" class="emoji loading" data-was-processed="true"></h1>
+          <img id="profile-picture" src="Images/Profile-Picture.png" alt="My Avatar" width="160">
+          <span id="socials">
+            <ul class="list-inline">
+              <li class="list-inline-item"><a href="https://github.com/daphnekua"><i class="fab fa-github fa-2x"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.linkedin.com/in/daphnekua/"><i class="fab fa-linkedin fa-2x"></i></a></li>
+              <li class="list-inline-item"><a href="mailto:daphnekua@gmail.com"><i class="fas fa-envelope-open fa-2x"></i></a></li>
+            </ul>
+          </span>
+          <p>Interests <img draggable="false" title=":heart:" alt="❤" src="https://twemoji.maxcdn.com/2/svg/2764.svg" class="emoji loading" data-was-processed="true"> - yoga, travelling, Spanish language, networking</p>
+      </div>
 
-    <div class="current-position">
-      <div class="current-description">
-        <h3><strong>Daphne Kua</strong></h3>
-        <p>Implementation Manager, Triptease</p>
+      <div class="card">
+        <h2>About Me</h2>
+          <p>Tech professional, with more than 3 years of experience in the SaaS startup space <img draggable="false" title=":boom:" alt="💥" src="https://twemoji.maxcdn.com/2/svg/1f4a5.svg" class="emoji loading" data-was-processed="true"></p>
+          <p>As an Implementation Manager at Triptease, I was setting hotels up with our software to drive direct bookings.</p>
+          <p>Now a student at a coding school called Le Wagon, preparing for my next adventure <img draggable="false" class="emoji" alt="👩🏻‍💻" src="https://twemoji.maxcdn.com/v/13.0.0/72x72/1f469-1f3fb-200d-1f4bb.png"></p>
       </div>
-        <img src="./Images/Profile-Picture.png" class="profile-picture">
-    </div>
 
-    <div class="navbar">
-      <div class="navbar-item active"><a href="">About</a>
-      </div>
-      <!--
-      <div class="navbar-item"><a href="">Travel</a>
-      </div>
-      <div class="navbar-item"><a href="">Portfolio</a>
-      </div>
-      -->
-      <div class="navbar-item"><a href="mailto:daphnekua@gmail.com">Get in touch <img draggable="false" title=":busts_in_silhouette:" alt="👥" src="https://twemoji.maxcdn.com/2/svg/1f465.svg" class="emoji loading" data-was-processed="true"></a>
-      </div>
-    </div>
-
-    <div class="introduction">
-      <h1>Hello <img draggable="false" title=":wave:" alt="👋" src="https://twemoji.maxcdn.com/2/svg/1f44b.svg" class="emoji loading" data-was-processed="true"></h1>
-      <p>I am a tech professional, with 3 years of experience in the SaaS startup space <img draggable="false" title=":boom:" alt="💥" src="https://twemoji.maxcdn.com/2/svg/1f4a5.svg" class="emoji loading" data-was-processed="true">.</p>
-      <p>As an Implementation Manager <img title=":hammer_and_wrench:" alt="🛠" src="https://twemoji.maxcdn.com/2/svg/1f6e0.svg" class="emoji loading" data-was-processed="true"> at Triptease, I was setting hotels up with our software to drive direct bookings.</p>
-      <p>Now a student at a coding school called Le Wagon, preparing for my next adventure <img draggable="false" class="emoji" alt="👩🏻‍💻" src="https://twemoji.maxcdn.com/v/13.0.0/72x72/1f469-1f3fb-200d-1f4bb.png">.<p>
-      <p>Interests <img draggable="false" title=":heart:" alt="❤" src="https://twemoji.maxcdn.com/2/svg/2764.svg" class="emoji loading" data-was-processed="true"> - yoga, travelling, learning Spanish, networking</p>
-
-      <h2>Skills</h2>
-      <div class="description">What I Do</div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-lg-3">
-            <i class="fas fa-tasks fa-3x"></i>
-            <h3>Project Management</h3>
-            <p>Plan & execute projects,</br>
-              API & QA testing, bug support,</br>
-              stakeholder management</p>
+      <div class="card">
+        <h2>Skills</h2>
+          <div class="box">
+            <div class="row">
+              <div class="col-lg-6">
+              <i class="fas fa-tasks fa-2x"></i>
+              <h3>Project Management</h3>
+                <p><em>Plan & execute projects,</br>
+                  API & QA testing, bug support,</br>
+                  stakeholder management</em></p>
+            </div>
+            <div class="col-lg-6">
+              <i class="fas fa-cogs fa-2x"></i>
+              <h3>Tech Stack</h3>
+                <p><em>Chrome DevTools,</br>
+                  Google Tag Manager,</br>
+                  Google Analytics, Looker</em></p>
+            </div>
+            <div class="col-lg-6">
+              <i class="fas fa-code fa-2x"></i>
+              <h3>Front-End</h3>
+              <span id="progress">In progress</span>
+                <p><em>HTML, CSS, Javascript</em></p>
+            </div>
+            <div class="col-lg-6">
+              <i class="fas fa-terminal fa-2x"></i>
+              <h3>Back-End</h3>
+              <span id="progress">In progress</span>
+                <p><em>Express.js, Node.js,</br>
+                  SQL, Ruby on Rails</em></p>
+            </div>
           </div>
-          <div class="col-sm-12 col-lg-3">
-            <i class="fas fa-cogs fa-3x"></i>
-            <h3>Tech Stack</h3>
-            <p>Chrome DevTools,</br>
-              Google Tag Manager,</br>
-              Google Analytics, Looker</p>
           </div>
-          <div class="col-sm-12 col-lg-3">
-            <i class="fas fa-code fa-3x"></i>
-            <h3>Front-End</h3>
-            <span id="progress">In progress</span>
-            <p>HTML, CSS, Javascript</p>
-          </div>
-          <div class="col-sm-12 col-lg-3">
-            <i class="fas fa-terminal fa-3x"></i>
-            <h3>Back-End</h3>
-            <span id="progress">In progress</span>
-            <p>Express.js, Node.js,</br>
-              SQL, Ruby on Rails</p>
-          </div>
-        </div>
-        </div>
-    </div>
+      </div>
 
-    <div id="footer">
-        <ul class="list-inline">
-          <li class="list-inline-item"><a href="https://github.com/daphnekua"><i class="fab fa-github fa-2x"></i></a></li>
-          <li class="list-inline-item"><a href="https://www.linkedin.com/in/daphnekua/"><i class="fab fa-linkedin fa-2x"></i></a></li>
-          <li class="list-inline-item"><a href="mailto:daphnekua@gmail.com"><i class="fas fa-envelope-open fa-2x"></i></a></li>
-        </ul>
-        <p>Made with <img draggable="false" title=":heart:" alt="❤" src="https://twemoji.maxcdn.com/2/svg/2764.svg" class="emoji loading" data-was-processed="true"> by Daphne Kua</p>
-    </div>
+<!--       <div class="card">
+        <h2>My Portfolio</h2>
+          <h3>Cook Book</h3>
+          <h3>Food Delivery</h3>
+      </div>
+    </div> -->
 
     <!-- Optional JavaScript -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
